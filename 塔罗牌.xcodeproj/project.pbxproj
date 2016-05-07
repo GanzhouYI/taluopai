@@ -13,10 +13,95 @@
 		9D6B6D7F1BF5DCF3002A23DC /* ___.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D6B6D7D1BF5DCF3002A23DC /* ___.xcdatamodeld */; };
 		9D6B6D811BF5DCF3002A23DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D6B6D801BF5DCF3002A23DC /* Assets.xcassets */; };
 		9D6B6D841BF5DCF3002A23DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D6B6D821BF5DCF3002A23DC /* LaunchScreen.storyboard */; };
+		9D8453021BFC84A400C91C9E /* GameUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8453011BFC84A400C91C9E /* GameUpload.swift */; };
+		9DB672FC1C07EF24008C5F45 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB672FB1C07EF24008C5F45 /* Play.swift */; };
+		9DB673001C07EFE0008C5F45 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB672FF1C07EFE0008C5F45 /* Cards.swift */; };
+		CF32D9071C12D3F400F65180 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF32D9061C12D3F400F65180 /* libsqlite3.tbd */; };
+		CF32D90E1C12D53F00F65180 /* SQLiteDemo01-Bridging-Header.m in Sources */ = {isa = PBXBuildFile; fileRef = CF32D90D1C12D53F00F65180 /* SQLiteDemo01-Bridging-Header.m */; };
+		CF32D9111C12D62C00F65180 /* SQLite_pai.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF32D9101C12D62C00F65180 /* SQLite_pai.swift */; };
+		CF5B01781C15B72A00920B1E /* yindao.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5B01771C15B72A00920B1E /* yindao.swift */; };
+		CF7B08B91CDC45E3003C1784 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08B71CDC45E3003C1784 /* TencentOpenAPI.framework */; };
+		CF7B08BA1CDC45E3003C1784 /* TencentOpenApi_IOS_Bundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CF7B08B81CDC45E3003C1784 /* TencentOpenApi_IOS_Bundle.bundle */; };
+		CF7B08BC1CDC461B003C1784 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08BB1CDC461B003C1784 /* libz.tbd */; };
+		CF7B08BE1CDC4627003C1784 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08BD1CDC4627003C1784 /* libstdc++.tbd */; };
+		CF7B08C01CDC4637003C1784 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08BF1CDC4637003C1784 /* CoreTelephony.framework */; };
+		CF7B08C21CDC4645003C1784 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08C11CDC4645003C1784 /* CoreGraphics.framework */; };
+		CF7B08C41CDC464F003C1784 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08C31CDC464F003C1784 /* SystemConfiguration.framework */; };
+		CF7B08C61CDC4659003C1784 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08C51CDC4659003C1784 /* libiconv.tbd */; };
+		CF7B08C81CDC4660003C1784 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7B08C71CDC4660003C1784 /* Security.framework */; };
+		CF8A265B1CDD8C86007EDE8E /* 0愚人后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A262F1CDD8C86007EDE8E /* 0愚人后.png */; };
+		CF8A265C1CDD8C86007EDE8E /* 0愚人前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26301CDD8C86007EDE8E /* 0愚人前.png */; };
+		CF8A265D1CDD8C86007EDE8E /* 1魔术师后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26311CDD8C86007EDE8E /* 1魔术师后.png */; };
+		CF8A265E1CDD8C86007EDE8E /* 1魔术师前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26321CDD8C86007EDE8E /* 1魔术师前.png */; };
+		CF8A265F1CDD8C86007EDE8E /* 2女祭祀后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26331CDD8C86007EDE8E /* 2女祭祀后.png */; };
+		CF8A26601CDD8C86007EDE8E /* 2女祭祀前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26341CDD8C86007EDE8E /* 2女祭祀前.png */; };
+		CF8A26611CDD8C86007EDE8E /* 3女皇后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26351CDD8C86007EDE8E /* 3女皇后.png */; };
+		CF8A26621CDD8C86007EDE8E /* 3女皇前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26361CDD8C86007EDE8E /* 3女皇前.png */; };
+		CF8A26631CDD8C86007EDE8E /* 4皇帝后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26371CDD8C86007EDE8E /* 4皇帝后.png */; };
+		CF8A26641CDD8C86007EDE8E /* 4皇帝前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26381CDD8C86007EDE8E /* 4皇帝前.png */; };
+		CF8A26651CDD8C86007EDE8E /* 5教皇后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26391CDD8C86007EDE8E /* 5教皇后.png */; };
+		CF8A26661CDD8C86007EDE8E /* 5教皇前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263A1CDD8C86007EDE8E /* 5教皇前.png */; };
+		CF8A26671CDD8C86007EDE8E /* 6恋人后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263B1CDD8C86007EDE8E /* 6恋人后.png */; };
+		CF8A26681CDD8C86007EDE8E /* 6恋人前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263C1CDD8C86007EDE8E /* 6恋人前.png */; };
+		CF8A26691CDD8C86007EDE8E /* 7战车后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263D1CDD8C86007EDE8E /* 7战车后.png */; };
+		CF8A266A1CDD8C86007EDE8E /* 7战车前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263E1CDD8C86007EDE8E /* 7战车前.png */; };
+		CF8A266B1CDD8C86007EDE8E /* 8力量后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A263F1CDD8C86007EDE8E /* 8力量后.png */; };
+		CF8A266C1CDD8C86007EDE8E /* 8力量前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26401CDD8C86007EDE8E /* 8力量前.png */; };
+		CF8A266D1CDD8C86007EDE8E /* 9隐士后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26411CDD8C86007EDE8E /* 9隐士后.png */; };
+		CF8A266E1CDD8C86007EDE8E /* 9隐士前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26421CDD8C86007EDE8E /* 9隐士前.png */; };
+		CF8A266F1CDD8C86007EDE8E /* 10命运之轮后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26431CDD8C86007EDE8E /* 10命运之轮后.png */; };
+		CF8A26701CDD8C86007EDE8E /* 10命运之轮前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26441CDD8C86007EDE8E /* 10命运之轮前.png */; };
+		CF8A26711CDD8C86007EDE8E /* 11正义后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26451CDD8C86007EDE8E /* 11正义后.png */; };
+		CF8A26721CDD8C86007EDE8E /* 11正义前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26461CDD8C86007EDE8E /* 11正义前.png */; };
+		CF8A26731CDD8C86007EDE8E /* 12倒吊人后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26471CDD8C86007EDE8E /* 12倒吊人后.png */; };
+		CF8A26741CDD8C86007EDE8E /* 12倒吊人前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26481CDD8C86007EDE8E /* 12倒吊人前.png */; };
+		CF8A26751CDD8C86007EDE8E /* 13死神后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26491CDD8C86007EDE8E /* 13死神后.png */; };
+		CF8A26761CDD8C86007EDE8E /* 13死神前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264A1CDD8C86007EDE8E /* 13死神前.png */; };
+		CF8A26771CDD8C86007EDE8E /* 14节制后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264B1CDD8C86007EDE8E /* 14节制后.png */; };
+		CF8A26781CDD8C86007EDE8E /* 14节制前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264C1CDD8C86007EDE8E /* 14节制前.png */; };
+		CF8A26791CDD8C86007EDE8E /* 15魔鬼后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264D1CDD8C86007EDE8E /* 15魔鬼后.png */; };
+		CF8A267A1CDD8C86007EDE8E /* 15魔鬼前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264E1CDD8C86007EDE8E /* 15魔鬼前.png */; };
+		CF8A267B1CDD8C86007EDE8E /* 16高塔后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A264F1CDD8C86007EDE8E /* 16高塔后.png */; };
+		CF8A267C1CDD8C86007EDE8E /* 16高塔前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26501CDD8C86007EDE8E /* 16高塔前.png */; };
+		CF8A267D1CDD8C86007EDE8E /* 17星星后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26511CDD8C86007EDE8E /* 17星星后.png */; };
+		CF8A267E1CDD8C86007EDE8E /* 17星星前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26521CDD8C86007EDE8E /* 17星星前.png */; };
+		CF8A267F1CDD8C86007EDE8E /* 18月亮后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26531CDD8C86007EDE8E /* 18月亮后.png */; };
+		CF8A26801CDD8C86007EDE8E /* 18月亮前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26541CDD8C86007EDE8E /* 18月亮前.png */; };
+		CF8A26811CDD8C86007EDE8E /* 19太阳后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26551CDD8C86007EDE8E /* 19太阳后.png */; };
+		CF8A26821CDD8C86007EDE8E /* 19太阳前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26561CDD8C86007EDE8E /* 19太阳前.png */; };
+		CF8A26831CDD8C86007EDE8E /* 20审判后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26571CDD8C86007EDE8E /* 20审判后.png */; };
+		CF8A26841CDD8C86007EDE8E /* 20审判前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26581CDD8C86007EDE8E /* 20审判前.png */; };
+		CF8A26851CDD8C86007EDE8E /* 21世界后.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26591CDD8C86007EDE8E /* 21世界后.png */; };
+		CF8A26861CDD8C86007EDE8E /* 21世界前.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A265A1CDD8C86007EDE8E /* 21世界前.png */; };
+		CF8A26931CDD8C91007EDE8E /* 卡背.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26871CDD8C91007EDE8E /* 卡背.jpg */; };
+		CF8A26941CDD8C91007EDE8E /* beginImage_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26881CDD8C91007EDE8E /* beginImage_1.jpg */; };
+		CF8A26951CDD8C91007EDE8E /* beginImage_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26891CDD8C91007EDE8E /* beginImage_2.jpg */; };
+		CF8A26961CDD8C91007EDE8E /* BG_ALL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268A1CDD8C91007EDE8E /* BG_ALL.jpg */; };
+		CF8A26971CDD8C91007EDE8E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268B1CDD8C91007EDE8E /* icon.png */; };
+		CF8A26981CDD8C91007EDE8E /* kacao_4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268C1CDD8C91007EDE8E /* kacao_4.png */; };
+		CF8A26991CDD8C91007EDE8E /* menu_button_play.png in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268D1CDD8C91007EDE8E /* menu_button_play.png */; };
+		CF8A269A1CDD8C91007EDE8E /* show_one_BG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268E1CDD8C91007EDE8E /* show_one_BG.jpg */; };
+		CF8A269B1CDD8C91007EDE8E /* yindao1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A268F1CDD8C91007EDE8E /* yindao1.jpg */; };
+		CF8A269C1CDD8C91007EDE8E /* yindao2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26901CDD8C91007EDE8E /* yindao2.jpg */; };
+		CF8A269D1CDD8C91007EDE8E /* yindao3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26911CDD8C91007EDE8E /* yindao3.jpg */; };
+		CF8A269E1CDD8C91007EDE8E /* yindao4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26921CDD8C91007EDE8E /* yindao4.jpg */; };
+		CF8A26A71CDD8C9A007EDE8E /* 按键.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A269F1CDD8C9A007EDE8E /* 按键.wav */; };
+		CF8A26A81CDD8C9A007EDE8E /* 抽四张牌.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A01CDD8C9A007EDE8E /* 抽四张牌.wav */; };
+		CF8A26A91CDD8C9A007EDE8E /* 出现22张牌.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A11CDD8C9A007EDE8E /* 出现22张牌.wav */; };
+		CF8A26AA1CDD8C9A007EDE8E /* 点击中间.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A21CDD8C9A007EDE8E /* 点击中间.wav */; };
+		CF8A26AB1CDD8C9A007EDE8E /* 翻牌.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A31CDD8C9A007EDE8E /* 翻牌.wav */; };
+		CF8A26AC1CDD8C9A007EDE8E /* 展示完回去.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A41CDD8C9A007EDE8E /* 展示完回去.wav */; };
+		CF8A26AD1CDD8C9A007EDE8E /* 展示一张.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A51CDD8C9A007EDE8E /* 展示一张.wav */; };
+		CF8A26AE1CDD8C9A007EDE8E /* 中间返回.wav in Resources */ = {isa = PBXBuildFile; fileRef = CF8A26A61CDD8C9A007EDE8E /* 中间返回.wav */; };
+		CF90F8DA1C1EFA1600DF7E4B /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF90F8D91C1EFA1600DF7E4B /* Music.swift */; };
+		CFCF71F81C19B67B00C54A18 /* kapaijianshan.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF71F71C19B67B00C54A18 /* kapaijianshan.swift */; };
+		CFCF71FA1C19B6DD00C54A18 /* kapaijianshan_detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCF71F91C19B6DD00C54A18 /* kapaijianshan_detail.swift */; };
+		CFEBB1271C18307000F8E3EB /* extension_Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB1261C18307000F8E3EB /* extension_Play.swift */; };
+		CFEBB1291C1866F400F8E3EB /* search_SQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEBB1281C1866F400F8E3EB /* search_SQL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D6B6D731BF5DCF3002A23DC /* 塔罗牌.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "塔罗牌.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D6B6D731BF5DCF3002A23DC /* awdawdadassafdfd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = awdawdadassafdfd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D6B6D761BF5DCF3002A23DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9D6B6D781BF5DCF3002A23DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9D6B6D7B1BF5DCF3002A23DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +109,93 @@
 		9D6B6D801BF5DCF3002A23DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D6B6D831BF5DCF3002A23DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D6B6D851BF5DCF3002A23DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D8453011BFC84A400C91C9E /* GameUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameUpload.swift; sourceTree = "<group>"; };
+		9DB672FB1C07EF24008C5F45 /* Play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		9DB672FF1C07EFE0008C5F45 /* Cards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+		CF32D9061C12D3F400F65180 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		CF32D90D1C12D53F00F65180 /* SQLiteDemo01-Bridging-Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SQLiteDemo01-Bridging-Header.m"; sourceTree = "<group>"; };
+		CF32D90F1C12D55400F65180 /* SQLiteDemo01-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SQLiteDemo01-Bridging-Header.h"; sourceTree = "<group>"; };
+		CF32D9101C12D62C00F65180 /* SQLite_pai.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SQLite_pai.swift; sourceTree = "<group>"; };
+		CF5B01771C15B72A00920B1E /* yindao.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = yindao.swift; sourceTree = "<group>"; };
+		CF7B08B71CDC45E3003C1784 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = iOS_OpenSDK_2/TencentOpenAPI.framework; sourceTree = "<group>"; };
+		CF7B08B81CDC45E3003C1784 /* TencentOpenApi_IOS_Bundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = TencentOpenApi_IOS_Bundle.bundle; path = iOS_OpenSDK_2/TencentOpenApi_IOS_Bundle.bundle; sourceTree = "<group>"; };
+		CF7B08BB1CDC461B003C1784 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		CF7B08BD1CDC4627003C1784 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		CF7B08BF1CDC4637003C1784 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		CF7B08C11CDC4645003C1784 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF7B08C31CDC464F003C1784 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CF7B08C51CDC4659003C1784 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		CF7B08C71CDC4660003C1784 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF7B08C91CDC719B003C1784 /* bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridge.h; sourceTree = "<group>"; };
+		CF8A262F1CDD8C86007EDE8E /* 0愚人后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0愚人后.png"; path = "image/taluopai/0愚人后.png"; sourceTree = "<group>"; };
+		CF8A26301CDD8C86007EDE8E /* 0愚人前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "0愚人前.png"; path = "image/taluopai/0愚人前.png"; sourceTree = "<group>"; };
+		CF8A26311CDD8C86007EDE8E /* 1魔术师后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1魔术师后.png"; path = "image/taluopai/1魔术师后.png"; sourceTree = "<group>"; };
+		CF8A26321CDD8C86007EDE8E /* 1魔术师前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1魔术师前.png"; path = "image/taluopai/1魔术师前.png"; sourceTree = "<group>"; };
+		CF8A26331CDD8C86007EDE8E /* 2女祭祀后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2女祭祀后.png"; path = "image/taluopai/2女祭祀后.png"; sourceTree = "<group>"; };
+		CF8A26341CDD8C86007EDE8E /* 2女祭祀前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2女祭祀前.png"; path = "image/taluopai/2女祭祀前.png"; sourceTree = "<group>"; };
+		CF8A26351CDD8C86007EDE8E /* 3女皇后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3女皇后.png"; path = "image/taluopai/3女皇后.png"; sourceTree = "<group>"; };
+		CF8A26361CDD8C86007EDE8E /* 3女皇前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "3女皇前.png"; path = "image/taluopai/3女皇前.png"; sourceTree = "<group>"; };
+		CF8A26371CDD8C86007EDE8E /* 4皇帝后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4皇帝后.png"; path = "image/taluopai/4皇帝后.png"; sourceTree = "<group>"; };
+		CF8A26381CDD8C86007EDE8E /* 4皇帝前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4皇帝前.png"; path = "image/taluopai/4皇帝前.png"; sourceTree = "<group>"; };
+		CF8A26391CDD8C86007EDE8E /* 5教皇后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5教皇后.png"; path = "image/taluopai/5教皇后.png"; sourceTree = "<group>"; };
+		CF8A263A1CDD8C86007EDE8E /* 5教皇前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5教皇前.png"; path = "image/taluopai/5教皇前.png"; sourceTree = "<group>"; };
+		CF8A263B1CDD8C86007EDE8E /* 6恋人后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6恋人后.png"; path = "image/taluopai/6恋人后.png"; sourceTree = "<group>"; };
+		CF8A263C1CDD8C86007EDE8E /* 6恋人前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6恋人前.png"; path = "image/taluopai/6恋人前.png"; sourceTree = "<group>"; };
+		CF8A263D1CDD8C86007EDE8E /* 7战车后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7战车后.png"; path = "image/taluopai/7战车后.png"; sourceTree = "<group>"; };
+		CF8A263E1CDD8C86007EDE8E /* 7战车前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7战车前.png"; path = "image/taluopai/7战车前.png"; sourceTree = "<group>"; };
+		CF8A263F1CDD8C86007EDE8E /* 8力量后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8力量后.png"; path = "image/taluopai/8力量后.png"; sourceTree = "<group>"; };
+		CF8A26401CDD8C86007EDE8E /* 8力量前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "8力量前.png"; path = "image/taluopai/8力量前.png"; sourceTree = "<group>"; };
+		CF8A26411CDD8C86007EDE8E /* 9隐士后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "9隐士后.png"; path = "image/taluopai/9隐士后.png"; sourceTree = "<group>"; };
+		CF8A26421CDD8C86007EDE8E /* 9隐士前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "9隐士前.png"; path = "image/taluopai/9隐士前.png"; sourceTree = "<group>"; };
+		CF8A26431CDD8C86007EDE8E /* 10命运之轮后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10命运之轮后.png"; path = "image/taluopai/10命运之轮后.png"; sourceTree = "<group>"; };
+		CF8A26441CDD8C86007EDE8E /* 10命运之轮前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "10命运之轮前.png"; path = "image/taluopai/10命运之轮前.png"; sourceTree = "<group>"; };
+		CF8A26451CDD8C86007EDE8E /* 11正义后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11正义后.png"; path = "image/taluopai/11正义后.png"; sourceTree = "<group>"; };
+		CF8A26461CDD8C86007EDE8E /* 11正义前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "11正义前.png"; path = "image/taluopai/11正义前.png"; sourceTree = "<group>"; };
+		CF8A26471CDD8C86007EDE8E /* 12倒吊人后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12倒吊人后.png"; path = "image/taluopai/12倒吊人后.png"; sourceTree = "<group>"; };
+		CF8A26481CDD8C86007EDE8E /* 12倒吊人前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "12倒吊人前.png"; path = "image/taluopai/12倒吊人前.png"; sourceTree = "<group>"; };
+		CF8A26491CDD8C86007EDE8E /* 13死神后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "13死神后.png"; path = "image/taluopai/13死神后.png"; sourceTree = "<group>"; };
+		CF8A264A1CDD8C86007EDE8E /* 13死神前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "13死神前.png"; path = "image/taluopai/13死神前.png"; sourceTree = "<group>"; };
+		CF8A264B1CDD8C86007EDE8E /* 14节制后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "14节制后.png"; path = "image/taluopai/14节制后.png"; sourceTree = "<group>"; };
+		CF8A264C1CDD8C86007EDE8E /* 14节制前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "14节制前.png"; path = "image/taluopai/14节制前.png"; sourceTree = "<group>"; };
+		CF8A264D1CDD8C86007EDE8E /* 15魔鬼后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15魔鬼后.png"; path = "image/taluopai/15魔鬼后.png"; sourceTree = "<group>"; };
+		CF8A264E1CDD8C86007EDE8E /* 15魔鬼前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "15魔鬼前.png"; path = "image/taluopai/15魔鬼前.png"; sourceTree = "<group>"; };
+		CF8A264F1CDD8C86007EDE8E /* 16高塔后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "16高塔后.png"; path = "image/taluopai/16高塔后.png"; sourceTree = "<group>"; };
+		CF8A26501CDD8C86007EDE8E /* 16高塔前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "16高塔前.png"; path = "image/taluopai/16高塔前.png"; sourceTree = "<group>"; };
+		CF8A26511CDD8C86007EDE8E /* 17星星后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "17星星后.png"; path = "image/taluopai/17星星后.png"; sourceTree = "<group>"; };
+		CF8A26521CDD8C86007EDE8E /* 17星星前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "17星星前.png"; path = "image/taluopai/17星星前.png"; sourceTree = "<group>"; };
+		CF8A26531CDD8C86007EDE8E /* 18月亮后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "18月亮后.png"; path = "image/taluopai/18月亮后.png"; sourceTree = "<group>"; };
+		CF8A26541CDD8C86007EDE8E /* 18月亮前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "18月亮前.png"; path = "image/taluopai/18月亮前.png"; sourceTree = "<group>"; };
+		CF8A26551CDD8C86007EDE8E /* 19太阳后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "19太阳后.png"; path = "image/taluopai/19太阳后.png"; sourceTree = "<group>"; };
+		CF8A26561CDD8C86007EDE8E /* 19太阳前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "19太阳前.png"; path = "image/taluopai/19太阳前.png"; sourceTree = "<group>"; };
+		CF8A26571CDD8C86007EDE8E /* 20审判后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20审判后.png"; path = "image/taluopai/20审判后.png"; sourceTree = "<group>"; };
+		CF8A26581CDD8C86007EDE8E /* 20审判前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "20审判前.png"; path = "image/taluopai/20审判前.png"; sourceTree = "<group>"; };
+		CF8A26591CDD8C86007EDE8E /* 21世界后.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "21世界后.png"; path = "image/taluopai/21世界后.png"; sourceTree = "<group>"; };
+		CF8A265A1CDD8C86007EDE8E /* 21世界前.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "21世界前.png"; path = "image/taluopai/21世界前.png"; sourceTree = "<group>"; };
+		CF8A26871CDD8C91007EDE8E /* 卡背.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "卡背.jpg"; path = "image/system_image/卡背.jpg"; sourceTree = "<group>"; };
+		CF8A26881CDD8C91007EDE8E /* beginImage_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beginImage_1.jpg; path = image/system_image/beginImage_1.jpg; sourceTree = "<group>"; };
+		CF8A26891CDD8C91007EDE8E /* beginImage_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = beginImage_2.jpg; path = image/system_image/beginImage_2.jpg; sourceTree = "<group>"; };
+		CF8A268A1CDD8C91007EDE8E /* BG_ALL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BG_ALL.jpg; path = image/system_image/BG_ALL.jpg; sourceTree = "<group>"; };
+		CF8A268B1CDD8C91007EDE8E /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = image/system_image/icon.png; sourceTree = "<group>"; };
+		CF8A268C1CDD8C91007EDE8E /* kacao_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = kacao_4.png; path = image/system_image/kacao_4.png; sourceTree = "<group>"; };
+		CF8A268D1CDD8C91007EDE8E /* menu_button_play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menu_button_play.png; path = image/system_image/menu_button_play.png; sourceTree = "<group>"; };
+		CF8A268E1CDD8C91007EDE8E /* show_one_BG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = show_one_BG.jpg; path = image/system_image/show_one_BG.jpg; sourceTree = "<group>"; };
+		CF8A268F1CDD8C91007EDE8E /* yindao1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yindao1.jpg; path = image/system_image/yindao1.jpg; sourceTree = "<group>"; };
+		CF8A26901CDD8C91007EDE8E /* yindao2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yindao2.jpg; path = image/system_image/yindao2.jpg; sourceTree = "<group>"; };
+		CF8A26911CDD8C91007EDE8E /* yindao3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yindao3.jpg; path = image/system_image/yindao3.jpg; sourceTree = "<group>"; };
+		CF8A26921CDD8C91007EDE8E /* yindao4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yindao4.jpg; path = image/system_image/yindao4.jpg; sourceTree = "<group>"; };
+		CF8A269F1CDD8C9A007EDE8E /* 按键.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "按键.wav"; path = "audio/按键.wav"; sourceTree = "<group>"; };
+		CF8A26A01CDD8C9A007EDE8E /* 抽四张牌.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "抽四张牌.wav"; path = "audio/抽四张牌.wav"; sourceTree = "<group>"; };
+		CF8A26A11CDD8C9A007EDE8E /* 出现22张牌.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "出现22张牌.wav"; path = "audio/出现22张牌.wav"; sourceTree = "<group>"; };
+		CF8A26A21CDD8C9A007EDE8E /* 点击中间.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "点击中间.wav"; path = "audio/点击中间.wav"; sourceTree = "<group>"; };
+		CF8A26A31CDD8C9A007EDE8E /* 翻牌.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "翻牌.wav"; path = "audio/翻牌.wav"; sourceTree = "<group>"; };
+		CF8A26A41CDD8C9A007EDE8E /* 展示完回去.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "展示完回去.wav"; path = "audio/展示完回去.wav"; sourceTree = "<group>"; };
+		CF8A26A51CDD8C9A007EDE8E /* 展示一张.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "展示一张.wav"; path = "audio/展示一张.wav"; sourceTree = "<group>"; };
+		CF8A26A61CDD8C9A007EDE8E /* 中间返回.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "中间返回.wav"; path = "audio/中间返回.wav"; sourceTree = "<group>"; };
+		CF90F8D91C1EFA1600DF7E4B /* Music.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		CFCF71F71C19B67B00C54A18 /* kapaijianshan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kapaijianshan.swift; sourceTree = "<group>"; };
+		CFCF71F91C19B6DD00C54A18 /* kapaijianshan_detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = kapaijianshan_detail.swift; sourceTree = "<group>"; };
+		CFEBB1261C18307000F8E3EB /* extension_Play.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension_Play.swift; sourceTree = "<group>"; };
+		CFEBB1281C1866F400F8E3EB /* search_SQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = search_SQL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +203,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF7B08C81CDC4660003C1784 /* Security.framework in Frameworks */,
+				CF7B08C61CDC4659003C1784 /* libiconv.tbd in Frameworks */,
+				CF7B08C41CDC464F003C1784 /* SystemConfiguration.framework in Frameworks */,
+				CF7B08C21CDC4645003C1784 /* CoreGraphics.framework in Frameworks */,
+				CF7B08C01CDC4637003C1784 /* CoreTelephony.framework in Frameworks */,
+				CF7B08BE1CDC4627003C1784 /* libstdc++.tbd in Frameworks */,
+				CF7B08BC1CDC461B003C1784 /* libz.tbd in Frameworks */,
+				CF32D9071C12D3F400F65180 /* libsqlite3.tbd in Frameworks */,
+				CF7B08B91CDC45E3003C1784 /* TencentOpenAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +221,21 @@
 		9D6B6D6A1BF5DCF3002A23DC = {
 			isa = PBXGroup;
 			children = (
+				CF7B08C91CDC719B003C1784 /* bridge.h */,
+				CF7B08C71CDC4660003C1784 /* Security.framework */,
+				CF7B08C51CDC4659003C1784 /* libiconv.tbd */,
+				CF7B08C31CDC464F003C1784 /* SystemConfiguration.framework */,
+				CF7B08C11CDC4645003C1784 /* CoreGraphics.framework */,
+				CF7B08BF1CDC4637003C1784 /* CoreTelephony.framework */,
+				CF7B08BD1CDC4627003C1784 /* libstdc++.tbd */,
+				CF7B08BB1CDC461B003C1784 /* libz.tbd */,
+				CF7B08B71CDC45E3003C1784 /* TencentOpenAPI.framework */,
+				CF7B08B81CDC45E3003C1784 /* TencentOpenApi_IOS_Bundle.bundle */,
+				CF5B01771C15B72A00920B1E /* yindao.swift */,
+				CF32D9101C12D62C00F65180 /* SQLite_pai.swift */,
+				CF32D90D1C12D53F00F65180 /* SQLiteDemo01-Bridging-Header.m */,
+				CF32D90F1C12D55400F65180 /* SQLiteDemo01-Bridging-Header.h */,
+				CF32D9061C12D3F400F65180 /* libsqlite3.tbd */,
 				9D6B6D751BF5DCF3002A23DC /* 塔罗牌 */,
 				9D6B6D741BF5DCF3002A23DC /* Products */,
 			);
@@ -48,7 +244,7 @@
 		9D6B6D741BF5DCF3002A23DC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D6B6D731BF5DCF3002A23DC /* 塔罗牌.app */,
+				9D6B6D731BF5DCF3002A23DC /* awdawdadassafdfd.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,23 +252,127 @@
 		9D6B6D751BF5DCF3002A23DC /* 塔罗牌 */ = {
 			isa = PBXGroup;
 			children = (
+				CF8A262C1CDD8C52007EDE8E /* Image */,
+				CF8A262B1CDD8C49007EDE8E /* audio */,
+				9D6B6D801BF5DCF3002A23DC /* Assets.xcassets */,
 				9D6B6D761BF5DCF3002A23DC /* AppDelegate.swift */,
 				9D6B6D781BF5DCF3002A23DC /* ViewController.swift */,
 				9D6B6D7A1BF5DCF3002A23DC /* Main.storyboard */,
-				9D6B6D801BF5DCF3002A23DC /* Assets.xcassets */,
 				9D6B6D821BF5DCF3002A23DC /* LaunchScreen.storyboard */,
 				9D6B6D851BF5DCF3002A23DC /* Info.plist */,
 				9D6B6D7D1BF5DCF3002A23DC /* ___.xcdatamodeld */,
+				9D8453011BFC84A400C91C9E /* GameUpload.swift */,
+				CFCF71F71C19B67B00C54A18 /* kapaijianshan.swift */,
+				CFCF71F91C19B6DD00C54A18 /* kapaijianshan_detail.swift */,
+				9DB672FB1C07EF24008C5F45 /* Play.swift */,
+				9DB672FF1C07EFE0008C5F45 /* Cards.swift */,
+				CFEBB1261C18307000F8E3EB /* extension_Play.swift */,
+				CFEBB1281C1866F400F8E3EB /* search_SQL.swift */,
+				CF90F8D91C1EFA1600DF7E4B /* Music.swift */,
 			);
 			path = "塔罗牌";
+			sourceTree = "<group>";
+		};
+		CF8A262B1CDD8C49007EDE8E /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A269F1CDD8C9A007EDE8E /* 按键.wav */,
+				CF8A26A01CDD8C9A007EDE8E /* 抽四张牌.wav */,
+				CF8A26A11CDD8C9A007EDE8E /* 出现22张牌.wav */,
+				CF8A26A21CDD8C9A007EDE8E /* 点击中间.wav */,
+				CF8A26A31CDD8C9A007EDE8E /* 翻牌.wav */,
+				CF8A26A41CDD8C9A007EDE8E /* 展示完回去.wav */,
+				CF8A26A51CDD8C9A007EDE8E /* 展示一张.wav */,
+				CF8A26A61CDD8C9A007EDE8E /* 中间返回.wav */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		CF8A262C1CDD8C52007EDE8E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A262E1CDD8C76007EDE8E /* taluopai */,
+				CF8A262D1CDD8C5D007EDE8E /* system_image */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		CF8A262D1CDD8C5D007EDE8E /* system_image */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A26871CDD8C91007EDE8E /* 卡背.jpg */,
+				CF8A26881CDD8C91007EDE8E /* beginImage_1.jpg */,
+				CF8A26891CDD8C91007EDE8E /* beginImage_2.jpg */,
+				CF8A268A1CDD8C91007EDE8E /* BG_ALL.jpg */,
+				CF8A268B1CDD8C91007EDE8E /* icon.png */,
+				CF8A268C1CDD8C91007EDE8E /* kacao_4.png */,
+				CF8A268D1CDD8C91007EDE8E /* menu_button_play.png */,
+				CF8A268E1CDD8C91007EDE8E /* show_one_BG.jpg */,
+				CF8A268F1CDD8C91007EDE8E /* yindao1.jpg */,
+				CF8A26901CDD8C91007EDE8E /* yindao2.jpg */,
+				CF8A26911CDD8C91007EDE8E /* yindao3.jpg */,
+				CF8A26921CDD8C91007EDE8E /* yindao4.jpg */,
+			);
+			name = system_image;
+			sourceTree = "<group>";
+		};
+		CF8A262E1CDD8C76007EDE8E /* taluopai */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A262F1CDD8C86007EDE8E /* 0愚人后.png */,
+				CF8A26301CDD8C86007EDE8E /* 0愚人前.png */,
+				CF8A26311CDD8C86007EDE8E /* 1魔术师后.png */,
+				CF8A26321CDD8C86007EDE8E /* 1魔术师前.png */,
+				CF8A26331CDD8C86007EDE8E /* 2女祭祀后.png */,
+				CF8A26341CDD8C86007EDE8E /* 2女祭祀前.png */,
+				CF8A26351CDD8C86007EDE8E /* 3女皇后.png */,
+				CF8A26361CDD8C86007EDE8E /* 3女皇前.png */,
+				CF8A26371CDD8C86007EDE8E /* 4皇帝后.png */,
+				CF8A26381CDD8C86007EDE8E /* 4皇帝前.png */,
+				CF8A26391CDD8C86007EDE8E /* 5教皇后.png */,
+				CF8A263A1CDD8C86007EDE8E /* 5教皇前.png */,
+				CF8A263B1CDD8C86007EDE8E /* 6恋人后.png */,
+				CF8A263C1CDD8C86007EDE8E /* 6恋人前.png */,
+				CF8A263D1CDD8C86007EDE8E /* 7战车后.png */,
+				CF8A263E1CDD8C86007EDE8E /* 7战车前.png */,
+				CF8A263F1CDD8C86007EDE8E /* 8力量后.png */,
+				CF8A26401CDD8C86007EDE8E /* 8力量前.png */,
+				CF8A26411CDD8C86007EDE8E /* 9隐士后.png */,
+				CF8A26421CDD8C86007EDE8E /* 9隐士前.png */,
+				CF8A26431CDD8C86007EDE8E /* 10命运之轮后.png */,
+				CF8A26441CDD8C86007EDE8E /* 10命运之轮前.png */,
+				CF8A26451CDD8C86007EDE8E /* 11正义后.png */,
+				CF8A26461CDD8C86007EDE8E /* 11正义前.png */,
+				CF8A26471CDD8C86007EDE8E /* 12倒吊人后.png */,
+				CF8A26481CDD8C86007EDE8E /* 12倒吊人前.png */,
+				CF8A26491CDD8C86007EDE8E /* 13死神后.png */,
+				CF8A264A1CDD8C86007EDE8E /* 13死神前.png */,
+				CF8A264B1CDD8C86007EDE8E /* 14节制后.png */,
+				CF8A264C1CDD8C86007EDE8E /* 14节制前.png */,
+				CF8A264D1CDD8C86007EDE8E /* 15魔鬼后.png */,
+				CF8A264E1CDD8C86007EDE8E /* 15魔鬼前.png */,
+				CF8A264F1CDD8C86007EDE8E /* 16高塔后.png */,
+				CF8A26501CDD8C86007EDE8E /* 16高塔前.png */,
+				CF8A26511CDD8C86007EDE8E /* 17星星后.png */,
+				CF8A26521CDD8C86007EDE8E /* 17星星前.png */,
+				CF8A26531CDD8C86007EDE8E /* 18月亮后.png */,
+				CF8A26541CDD8C86007EDE8E /* 18月亮前.png */,
+				CF8A26551CDD8C86007EDE8E /* 19太阳后.png */,
+				CF8A26561CDD8C86007EDE8E /* 19太阳前.png */,
+				CF8A26571CDD8C86007EDE8E /* 20审判后.png */,
+				CF8A26581CDD8C86007EDE8E /* 20审判前.png */,
+				CF8A26591CDD8C86007EDE8E /* 21世界后.png */,
+				CF8A265A1CDD8C86007EDE8E /* 21世界前.png */,
+			);
+			name = taluopai;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D6B6D721BF5DCF3002A23DC /* 塔罗牌 */ = {
+		9D6B6D721BF5DCF3002A23DC /* awdawdadassafdfd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D6B6D881BF5DCF3002A23DC /* Build configuration list for PBXNativeTarget "塔罗牌" */;
+			buildConfigurationList = 9D6B6D881BF5DCF3002A23DC /* Build configuration list for PBXNativeTarget "awdawdadassafdfd" */;
 			buildPhases = (
 				9D6B6D6F1BF5DCF3002A23DC /* Sources */,
 				9D6B6D701BF5DCF3002A23DC /* Frameworks */,
@@ -82,9 +382,9 @@
 			);
 			dependencies = (
 			);
-			name = "塔罗牌";
+			name = awdawdadassafdfd;
 			productName = "塔罗牌";
-			productReference = 9D6B6D731BF5DCF3002A23DC /* 塔罗牌.app */;
+			productReference = 9D6B6D731BF5DCF3002A23DC /* awdawdadassafdfd.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,6 +399,7 @@
 				TargetAttributes = {
 					9D6B6D721BF5DCF3002A23DC = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PSW73GPWP5;
 					};
 				};
 			};
@@ -109,13 +410,14 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 9D6B6D6A1BF5DCF3002A23DC;
 			productRefGroup = 9D6B6D741BF5DCF3002A23DC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D6B6D721BF5DCF3002A23DC /* 塔罗牌 */,
+				9D6B6D721BF5DCF3002A23DC /* awdawdadassafdfd */,
 			);
 		};
 /* End PBXProject section */
@@ -125,9 +427,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8A26AB1CDD8C9A007EDE8E /* 翻牌.wav in Resources */,
+				CF8A269A1CDD8C91007EDE8E /* show_one_BG.jpg in Resources */,
+				CF8A266C1CDD8C86007EDE8E /* 8力量前.png in Resources */,
+				CF8A26951CDD8C91007EDE8E /* beginImage_2.jpg in Resources */,
+				CF8A265D1CDD8C86007EDE8E /* 1魔术师后.png in Resources */,
+				CF8A266A1CDD8C86007EDE8E /* 7战车前.png in Resources */,
+				CF8A269D1CDD8C91007EDE8E /* yindao3.jpg in Resources */,
+				CF8A265F1CDD8C86007EDE8E /* 2女祭祀后.png in Resources */,
+				CF8A269C1CDD8C91007EDE8E /* yindao2.jpg in Resources */,
+				CF8A26731CDD8C86007EDE8E /* 12倒吊人后.png in Resources */,
+				CF8A266E1CDD8C86007EDE8E /* 9隐士前.png in Resources */,
+				CF8A26761CDD8C86007EDE8E /* 13死神前.png in Resources */,
+				CF8A267E1CDD8C86007EDE8E /* 17星星前.png in Resources */,
+				CF8A26AD1CDD8C9A007EDE8E /* 展示一张.wav in Resources */,
+				CF8A26A81CDD8C9A007EDE8E /* 抽四张牌.wav in Resources */,
+				CF8A26841CDD8C86007EDE8E /* 20审判前.png in Resources */,
+				CF8A267A1CDD8C86007EDE8E /* 15魔鬼前.png in Resources */,
+				CF8A26611CDD8C86007EDE8E /* 3女皇后.png in Resources */,
+				CF8A26741CDD8C86007EDE8E /* 12倒吊人前.png in Resources */,
+				CF8A267B1CDD8C86007EDE8E /* 16高塔后.png in Resources */,
+				CF8A26801CDD8C86007EDE8E /* 18月亮前.png in Resources */,
+				CF8A269B1CDD8C91007EDE8E /* yindao1.jpg in Resources */,
+				CF8A26861CDD8C86007EDE8E /* 21世界前.png in Resources */,
+				CF8A26631CDD8C86007EDE8E /* 4皇帝后.png in Resources */,
+				CF8A267D1CDD8C86007EDE8E /* 17星星后.png in Resources */,
+				CF8A269E1CDD8C91007EDE8E /* yindao4.jpg in Resources */,
+				CF8A26781CDD8C86007EDE8E /* 14节制前.png in Resources */,
+				CF8A26AA1CDD8C9A007EDE8E /* 点击中间.wav in Resources */,
 				9D6B6D841BF5DCF3002A23DC /* LaunchScreen.storyboard in Resources */,
+				CF8A267F1CDD8C86007EDE8E /* 18月亮后.png in Resources */,
+				CF8A26811CDD8C86007EDE8E /* 19太阳后.png in Resources */,
+				CF8A26831CDD8C86007EDE8E /* 20审判后.png in Resources */,
+				CF8A26751CDD8C86007EDE8E /* 13死神后.png in Resources */,
+				CF8A265B1CDD8C86007EDE8E /* 0愚人后.png in Resources */,
+				CF8A26AC1CDD8C9A007EDE8E /* 展示完回去.wav in Resources */,
+				CF8A26641CDD8C86007EDE8E /* 4皇帝前.png in Resources */,
+				CF8A26791CDD8C86007EDE8E /* 15魔鬼后.png in Resources */,
+				CF8A26621CDD8C86007EDE8E /* 3女皇前.png in Resources */,
+				CF8A26991CDD8C91007EDE8E /* menu_button_play.png in Resources */,
+				CF8A265C1CDD8C86007EDE8E /* 0愚人前.png in Resources */,
+				CF8A26701CDD8C86007EDE8E /* 10命运之轮前.png in Resources */,
+				CF8A26601CDD8C86007EDE8E /* 2女祭祀前.png in Resources */,
+				CF8A26971CDD8C91007EDE8E /* icon.png in Resources */,
+				CF8A266F1CDD8C86007EDE8E /* 10命运之轮后.png in Resources */,
 				9D6B6D811BF5DCF3002A23DC /* Assets.xcassets in Resources */,
+				CF8A26931CDD8C91007EDE8E /* 卡背.jpg in Resources */,
+				CF8A26851CDD8C86007EDE8E /* 21世界后.png in Resources */,
+				CF8A26681CDD8C86007EDE8E /* 6恋人前.png in Resources */,
+				CF8A26941CDD8C91007EDE8E /* beginImage_1.jpg in Resources */,
+				CF8A26691CDD8C86007EDE8E /* 7战车后.png in Resources */,
+				CF8A26651CDD8C86007EDE8E /* 5教皇后.png in Resources */,
+				CF8A26721CDD8C86007EDE8E /* 11正义前.png in Resources */,
+				CF8A265E1CDD8C86007EDE8E /* 1魔术师前.png in Resources */,
+				CF8A26981CDD8C91007EDE8E /* kacao_4.png in Resources */,
+				CF8A26A91CDD8C9A007EDE8E /* 出现22张牌.wav in Resources */,
+				CF8A26AE1CDD8C9A007EDE8E /* 中间返回.wav in Resources */,
+				CF8A266D1CDD8C86007EDE8E /* 9隐士后.png in Resources */,
+				CF8A26711CDD8C86007EDE8E /* 11正义后.png in Resources */,
+				CF8A26671CDD8C86007EDE8E /* 6恋人后.png in Resources */,
+				CF8A266B1CDD8C86007EDE8E /* 8力量后.png in Resources */,
+				CF8A26A71CDD8C9A007EDE8E /* 按键.wav in Resources */,
+				CF8A26661CDD8C86007EDE8E /* 5教皇前.png in Resources */,
+				CF8A267C1CDD8C86007EDE8E /* 16高塔前.png in Resources */,
+				CF8A26821CDD8C86007EDE8E /* 19太阳前.png in Resources */,
+				CF7B08BA1CDC45E3003C1784 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				9D6B6D7C1BF5DCF3002A23DC /* Main.storyboard in Resources */,
+				CF8A26961CDD8C91007EDE8E /* BG_ALL.jpg in Resources */,
+				CF8A26771CDD8C86007EDE8E /* 14节制后.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +506,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D6B6D791BF5DCF3002A23DC /* ViewController.swift in Sources */,
+				CFCF71FA1C19B6DD00C54A18 /* kapaijianshan_detail.swift in Sources */,
+				CFEBB1271C18307000F8E3EB /* extension_Play.swift in Sources */,
 				9D6B6D771BF5DCF3002A23DC /* AppDelegate.swift in Sources */,
+				9DB673001C07EFE0008C5F45 /* Cards.swift in Sources */,
+				CFEBB1291C1866F400F8E3EB /* search_SQL.swift in Sources */,
+				CF32D90E1C12D53F00F65180 /* SQLiteDemo01-Bridging-Header.m in Sources */,
+				9D8453021BFC84A400C91C9E /* GameUpload.swift in Sources */,
+				CF32D9111C12D62C00F65180 /* SQLite_pai.swift in Sources */,
 				9D6B6D7F1BF5DCF3002A23DC /* ___.xcdatamodeld in Sources */,
+				CFCF71F81C19B67B00C54A18 /* kapaijianshan.swift in Sources */,
+				CF90F8DA1C1EFA1600DF7E4B /* Music.swift in Sources */,
+				9DB672FC1C07EF24008C5F45 /* Play.swift in Sources */,
+				CF5B01781C15B72A00920B1E /* yindao.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +583,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-fobjc-arc";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -243,6 +622,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-fobjc-arc";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -253,10 +633,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_OpenSDK_2",
+				);
 				INFOPLIST_FILE = "塔罗牌/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "L.---";
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = "-33.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteDemo01-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -264,10 +656,21 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS_OpenSDK_2",
+				);
 				INFOPLIST_FILE = "塔罗牌/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "L.---";
+				OTHER_LDFLAGS = "-fobjc-arc";
+				PRODUCT_BUNDLE_IDENTIFIER = "-33.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SQLiteDemo01-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -283,13 +686,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D6B6D881BF5DCF3002A23DC /* Build configuration list for PBXNativeTarget "塔罗牌" */ = {
+		9D6B6D881BF5DCF3002A23DC /* Build configuration list for PBXNativeTarget "awdawdadassafdfd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D6B6D891BF5DCF3002A23DC /* Debug */,
 				9D6B6D8A1BF5DCF3002A23DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -17,9 +17,35 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        if !NSUserDefaults.standardUserDefaults().boolForKey("firstLaunch")//用户第一次启动
+        {
+            print("用户第一次进入，开启引导页")
+            self.window?.rootViewController = yindao()
+            self.window?.makeKeyAndVisible()
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "firstLaunch")
+        }
+        else
+        {
+            print("用户不是第一次进入，关闭引导页")
+            let zhujiemian=ViewController()
+            self.window?.rootViewController = zhujiemian
+            self.window?.makeKeyAndVisible()
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "firstLaunch")
+        }
         return true
     }
 
+    //重写openURL
+    func application(app: UIApplication, openURL url: NSURL, options: [String : AnyObject])
+        -> Bool {
+            return TencentOAuth.HandleOpenURL(url)
+    }
+    
+    //重写handleOpenURL
+    func application(application: UIApplication, handleOpenURL url: NSURL) -> Bool {
+        return TencentOAuth.HandleOpenURL(url)
+    }
+    
     func applicationWillResignActive(application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
